@@ -135,3 +135,20 @@
     text-decoration-line: line-through;
 }
 
+.under {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    display: none;
+  }
+  
+  .over {
+    left: 40px;
+    top: 10px;
+    z-index: 999;
+  }
+
+.product:hover .under {
+    display: inline-block;
+} 

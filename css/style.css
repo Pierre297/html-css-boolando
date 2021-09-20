@@ -15,6 +15,7 @@
 #container {
     width: 90%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .product img {
@@ -31,6 +32,8 @@
     
 
 }
+
+/* Immagini */
 
 .discount {
     padding: 10px;
@@ -52,26 +55,77 @@
     left: 82px;
 }
 
-.prezzi {
+.heart {
+    background-color: white;
+    padding: 10px;
+    font-size: 17px;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+}
+
+.prodotto1 {
     padding: 10px;
     font-size: 16px;
     position: absolute;
-    bottom: 356px;
+    bottom: 345px;
     left: 86px;
 }
 
-#prodotto2{
+.prodotto2{
     padding: 10px;
     font-size: 16px;
     position: absolute;
-    bottom: 356px;
+    bottom: 345px;
     left: 473px;
 }
 
-#prodotto3 {
+.prodotto3 {
     padding: 10px;
     font-size: 16px;
     position: absolute;
-    bottom: 356px;
+    bottom: 345px;
     left: 865px;
+}
+
+.redprize {
+    color: red;
+}
+
+#linea2 {
+    margin-top: 70px;
+}
+
+.prodotto4 {
+    padding: 10px;
+    font-size: 16px;
+    position: absolute;
+    bottom: -270px;
+    left: 86px;
+}
+
+.prodotto5{
+    padding: 10px;
+    font-size: 16px;
+    position: absolute;
+    bottom: -270px;
+    left: 473px;
+}
+
+.prodotto6 {
+    padding: 10px;
+    font-size: 16px;
+    position: absolute;
+    bottom: -270px;
+    left: 865px;
+}
+
+#sostenibilita2 {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: darkgreen;
+    position: absolute;
+    bottom: 18px;
+    left: 21px;
 }

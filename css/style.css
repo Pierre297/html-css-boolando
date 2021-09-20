@@ -29,6 +29,7 @@
     width: calc (100% / 3);
     text-align: center;
     position: relative;
+    z-index: 999;
     
 
 }
@@ -129,3 +130,8 @@
     bottom: 18px;
     left: 21px;
 }
+
+.textline {
+    text-decoration-line: line-through;
+}
+
